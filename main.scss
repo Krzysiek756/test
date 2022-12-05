@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+@import 'reset';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.start__li {
+    display: none;
+}
+
+
+
+
+.container {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+ul {
+    background-color: green;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white;
+}
